@@ -1,0 +1,147 @@
+@import url('https://fonts.googlepis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: #E0E0E2;
+  font-family: 'Roboto', sans-serif;
+  border: 14px;
+  width: 360px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-height: 200vh;
+  position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  background-color: #fff;
+  width: 60%;
+  height: 100vh;
+}
+.balance {
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.balance h1 {
+  color: rgb(19, 148, 71);
+  font-weight: bold;
+  margin: 0 0 0 0;
+  text-transform: bold;
+}
+.balance > p{
+  font-size: xx-small;
+  font-weight: bold;
+  margin: 0 0;
+}
+.IncomeAndExpense {
+  display: flex;
+  margin-top: 0;
+  justify-content: space-around;
+  background-color: #9efcc0;
+  border-bottom: 5px solid #289348;
+  border-radius: 3px;
+}
+
+.IncomeAndExpense .Income {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  border: 10px;
+  margin: 0;
+}
+.IncomeAndExpense hr {
+  margin: 0;
+  border: rgb(255, 0, 85);
+  border-right: 1px solid #586168;
+}
+
+.IncomeAndExpense .Income span {
+  color: #289348;
+  font-weight: bold;
+
+}
+.IncomeAndExpense .Expense span {
+  color: #bd1717;
+  font-weight: bold;
+
+}
+h2 {
+  font-weight: bold;
+  font-size: 10px;
+}
+.History {
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid rgb(19, 148, 71);
+  flex-wrap: wrap;
+  width: 100%;
+  padding-bottom: 10px;
+  padding-top: 2px;
+}
+
+
+.History label {
+  text-align: center;
+  color: rgb(8, 24, 18);
+  font-weight: bold;
+  font-size: xx-small;
+  text-align: left;
+}
+
+.History input {
+  margin-bottom: 4px;
+  padding: 1px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid #09ba3e;
+  width: 100%;
+  box-sizing: border-box;
+}
+input::placeholder {
+  font-size: xx-small;
+
+}
+.Expenses {
+  flex-direction: column;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.Expenses label {
+  text-align: center;
+  color: rgb(7, 13, 11);
+  font-size: xx-small;
+  font-weight: bold;
+  text-align: left;
+}
+.Expenses input {
+  margin-bottom: 4px;
+  padding: 1px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #09ba3e;
+  width: 100%;
+  box-sizing: border-box;
+}
+#btn {
+  text-align: center;
+  background-color: rgb(19, 148, 71);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline: none;
+}
